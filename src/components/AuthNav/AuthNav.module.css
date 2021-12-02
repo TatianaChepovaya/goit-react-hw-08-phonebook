@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+
+  text-align: left;
+
+  color: #2a363b;
+}
+
+.activeLink {
+  color: #04a0b4;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap {
+    display: inline-block;
+    padding: 10px 0;
+  }
+  .link {
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 0;
+  }
+}
